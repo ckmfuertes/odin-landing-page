@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  /* border: 2px solid red; */
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #1f2937;
+  color: #f9faf8;
+
+  padding: 30px 220px 30px 220px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-section h2 {
+  font-size: 24px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero-section {
+  display: flex;
+  gap: 40px;
+  margin: 120px 0 120px 0;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.left h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.sign-up-btn {
+  width: 150px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #2882f6;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: grey;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1f2937;
+
+  padding: 60px 320px 120px 320px;
+}
+
+.info-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.random-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.random-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.random-info-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 4px solid #2882f6;
+}
+
+.quote-container {
+  align-items: center;
+  color: #1f2937;
+  background-color: #e5e7e5;
+
+  padding: 100px 320px 100px 320px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.quote-author {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.call-container {
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+
+  padding: 30px 220px 30px 220px;
+}
+
+.call-card {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #3882f6;
+  padding: 50px 110px 50px 110px;
+  border-radius: 10px;
+  margin: 50px 0 50px 0;
+}
+
+.call-card p {
+    color: #e5e7eb;
+}
+
+.call-card button {
+  border: 2px solid #f9faf8;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+
+  background-color: #1f2937;
+  color: #f9faf8;
+
+  padding: 30px 220px 30px 220px;
+}
